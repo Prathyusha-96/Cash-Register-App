@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=sans-serif&display=swap');
+
+
+:root {
+    --primary-color: #A78BFA;
+    --secondary-color: #8B5CF6;
+}
+body {
+    margin: auto;
+    font-family: sans-serif;
+
+}
+.heading {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin: 5px;
+    
+}
+
+.h1 {
+    font-size: 1rem;
+}
+.container {
+    margin: auto;
+    text-align: center;
+    max-width: 600px;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+}
+.description {
+    font-size: larger;
+}
+label {
+    margin: 1rem;
+}
+input {
+    display: block;
+    padding: 0.5rem;
+    width: 50%;
+    margin: auto;
+    border: 2px solid black;
+    font-size: 1rem;
+}
+#check-button {
+    font-size: x-large;
+    border-radius: 0.5rem;
+    background-color: var(--secondary-color);
+    color: white;
+    max-width: 140px;
+    display: block;
+    padding: 0rem;
+    margin-top: 2rem;
+    margin: 1rem auto;
+}
+    
+table, th, td {
+    table-layout: fixed;
+    border-collapse: collapse;
+    max-width: 100%;
+    border: 2px solid black;
+    padding: 0.5rem;
+    margin: 0.5rem auto;
+}
+.footer{
+    background-color: var(--primary-color);
+    margin-top: 2rem;
+    padding: 2rem;
+    text-align: center;
+    bottom: 0px;
+    
+   
+}
+.footer .link {
+    color: white;
+    text-decoration: none;
+    padding: 1vh;
+}
+.footer ul {
+    padding-inline-start: 0px;
+}
